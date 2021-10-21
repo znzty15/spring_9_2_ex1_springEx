@@ -12,6 +12,7 @@ public class MainClass {
 		
 		Student student = ctx.getBean("student", Student.class);
 		student.getStudentInfo();
+		System.out.println();
 		
 		Worker worker = ctx.getBean("worker", Worker.class);
 		worker.getWorkerInfo();
